@@ -1,6 +1,10 @@
 module.exports = {
   pathPrefix: `/Gatsby-portfolio`,
+  siteMetadata: {
+    siteUrl: 'http://fannybuhler.com',
+  },
   plugins: [
+    'gatsby-plugin-cname',
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,

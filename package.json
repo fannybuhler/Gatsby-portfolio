@@ -12,12 +12,14 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && rm -rf docs && mv public docs && git add . && git commit -m \"Publish docs\" --no-verify && git push"
+    "deploy": "gatsby build --prefix-paths && rm -rf docs && mv public docs && git add . && git commit -m \"Publish docs\" --no-verify && git push",
+    "deploy2": "gatsby build && push-dir --dir=public --branch=public --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gatsby": "^2.23.7",
     "gatsby-image": "^2.4.7",
+    "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-manifest": "^2.4.12",
     "gatsby-plugin-offline": "^3.2.11",
     "gatsby-plugin-react-helmet": "^3.3.4",
@@ -28,6 +30,7 @@
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
+    "push-dir": "^0.4.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
