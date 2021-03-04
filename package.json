@@ -13,7 +13,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && rm -rf docs && mv public docs && git add . && git commit -m \"Publish docs\" --no-verify && git push",
-    "deploy2": "push-dir --dir=public --branch=gh-pages --cleanup",
+    "deploy2": "push-dir --dir=public --branch=public --cleanup",
     "deploy3": "gatsby build && push-dir --dir=public --branch=gh-pages --cleanup"
   },
   "dependencies": {
