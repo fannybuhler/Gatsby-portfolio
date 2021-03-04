@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `I'm an eager-to-learn tech and denim enthusiast studying to become a frontend developer. I'm often described as hard working and service minded with a positive attitude, and I leave no stone unturned when it comes to solving problems.`,
   paragraphTwo: `I've got 27 weeks of internship coming up starting in September 2021, and I'm looking to find a team that can help me expand my creativity and curiosity, and to become a better coder.`,
   paragraphThree: '',
-  resume: '/static/89cf064a53f9ca6e1b1d95428880dd27/CV.pdf', // if no resume, the button will not show up
+  resume: '/CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
