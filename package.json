@@ -13,7 +13,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "push": "git add . && git commit -m \"Force push\" --no-verify && git push",
-    "deploy": "gatsby build push-dir --dir=public --branch=public --cleanup"
+    "deploy": "gatsby build && push-dir --dir=public --branch=public --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
