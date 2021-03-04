@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "forcePush": "git add . && git commit -m \"Force push\" --no-verify && git push",
+    "push": "git add . && git commit -m \"Force push\" --no-verify && git push",
     "deploy": "gatsby build push-dir --dir=public --branch=public --cleanup"
   },
   "dependencies": {
