@@ -19,6 +19,10 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+          name="ahrefs-site-verification"
+          content="dfce64fbb26109515dfa4cf2379c360eee912a6ec0e4374c50607d480984db9d"
+        />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
