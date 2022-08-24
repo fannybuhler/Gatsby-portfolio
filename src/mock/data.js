@@ -60,9 +60,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: `Do you fancy having a chat?`,
+  cta: `Fancy having a chat?`,
   btn: 'Email Me',
-  email: 'fanny.buhler@hyperisland.se',
+  email: 'fanny.buhler1@gmail.se',
 };
 
 // FOOTER DATA

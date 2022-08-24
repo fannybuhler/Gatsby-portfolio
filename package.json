@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Fanny Buhlér dev portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Fanny Buhlérs dev portfolio made with Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
